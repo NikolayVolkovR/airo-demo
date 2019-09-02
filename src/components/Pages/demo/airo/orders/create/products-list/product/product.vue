@@ -30,7 +30,4 @@
             flex-basis 30%
             max-width 100px
 
-    .text_centered {
-
-    }
 </style>
