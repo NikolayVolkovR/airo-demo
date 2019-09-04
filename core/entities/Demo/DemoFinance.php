@@ -21,19 +21,7 @@ class DemoFinance extends \yii\db\ActiveRecord
         return '{{%demo_finance}}';
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function rules()
-    {
-        return [
-            [['email', 'name'], 'string', 'max' => 255],
-        ];
-    }
-
-    /**
-     * {@inheritdoc}
-     */
+    
     public function attributeLabels()
     {
         return [
